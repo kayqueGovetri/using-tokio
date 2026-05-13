@@ -1,0 +1,10 @@
+[package]
+name = "study-tokio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
+log = "0.4.14"
+simple_logger = "4.0.0"
